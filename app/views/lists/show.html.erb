@@ -1,1 +1,4 @@
 <h1><%= @list.name %></h1>
+
+<%= link_to 'Go back to lists', lists_path %>
+<%= link_to 'Create a new bookmark', new_list_bookmark_path(@list) %>
